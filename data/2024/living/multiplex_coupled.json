@@ -1,0 +1,151 @@
+{
+ "omegas": [
+  {
+   "omega": 0.03,
+   "ari_flow_car": 0.3504,
+   "ari_flow_transit": 0.4343,
+   "ari_car_transit": 0.5634,
+   "aligned3_cell_pct": 71.41,
+   "aligned3_mass_pct": 6.34,
+   "flow_capture": 17.35,
+   "K": {
+    "flow": 7192,
+    "car": 5766,
+    "transit": 5841
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  },
+  {
+   "omega": 0.1,
+   "ari_flow_car": 0.4973,
+   "ari_flow_transit": 0.5572,
+   "ari_car_transit": 0.6158,
+   "aligned3_cell_pct": 80.99,
+   "aligned3_mass_pct": 9.83,
+   "flow_capture": 16.28,
+   "K": {
+    "flow": 7230,
+    "car": 5817,
+    "transit": 5872
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  },
+  {
+   "omega": 0.3,
+   "ari_flow_car": 0.6122,
+   "ari_flow_transit": 0.6388,
+   "ari_car_transit": 0.6688,
+   "aligned3_cell_pct": 86.05,
+   "aligned3_mass_pct": 15.52,
+   "flow_capture": 15.98,
+   "K": {
+    "flow": 7169,
+    "car": 5842,
+    "transit": 5892
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  },
+  {
+   "omega": 1.0,
+   "ari_flow_car": 0.7147,
+   "ari_flow_transit": 0.7137,
+   "ari_car_transit": 0.7374,
+   "aligned3_cell_pct": 90.04,
+   "aligned3_mass_pct": 26.05,
+   "flow_capture": 15.98,
+   "K": {
+    "flow": 7044,
+    "car": 5888,
+    "transit": 5935
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  },
+  {
+   "omega": 3.0,
+   "ari_flow_car": 0.7947,
+   "ari_flow_transit": 0.7825,
+   "ari_car_transit": 0.8506,
+   "aligned3_cell_pct": 92.93,
+   "aligned3_mass_pct": 38.91,
+   "flow_capture": 17.24,
+   "K": {
+    "flow": 6921,
+    "car": 5959,
+    "transit": 6023
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  },
+  {
+   "omega": 10.0,
+   "ari_flow_car": 0.879,
+   "ari_flow_transit": 0.8377,
+   "ari_car_transit": 0.9214,
+   "aligned3_cell_pct": 94.78,
+   "aligned3_mass_pct": 53.65,
+   "flow_capture": 20.75,
+   "K": {
+    "flow": 6733,
+    "car": 6049,
+    "transit": 6077
+   },
+   "viol": {
+    "car": 0,
+    "transit": 0
+   }
+  }
+ ],
+ "resist": {
+  "cell_pct": 5.15,
+  "mass_pct": 46.26,
+  "top_sgg": [
+   "서울특별시 강남구",
+   "서울특별시 송파구",
+   "서울특별시 서초구",
+   "서울특별시 영등포구",
+   "서울특별시 강서구",
+   "서울특별시 마포구",
+   "서울특별시 관악구",
+   "경기도 부천시",
+   "서울특별시 양천구",
+   "서울특별시 노원구",
+   "서울특별시 강동구",
+   "서울특별시 종로구"
+  ],
+  "overlap_dev0": {
+   "resist_in_dev0_pct": 17.7,
+   "dev0_in_resist_pct": 2.5
+  }
+ },
+ "align_omega_hist": {
+  "0.03": 26782,
+  "0.1": 3599,
+  "0.3": 1900,
+  "1.0": 1517,
+  "3.0": 1081,
+  "10.0": 692
+ },
+ "meta": {
+  "flow_gamma": 263.5,
+  "radius_tau": {
+   "car": 30.0,
+   "transit": 60.0
+  },
+  "decay_tau": 30.0,
+  "norm": "mean-node-strength=1"
+ }
+}
