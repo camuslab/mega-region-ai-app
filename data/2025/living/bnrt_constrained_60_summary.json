@@ -1,0 +1,2351 @@
+{
+  "floor": 60,
+  "final": {
+    "K": 398,
+    "flow_regions": 177,
+    "regular_regions": 113,
+    "capture": 72.53589978477707,
+    "q": 2002621.6270930239,
+    "sc_min": 0.0,
+    "regular_sc_min": 60.4556559878195,
+    "sc_mean": 67.39473903126198,
+    "sc_median": 77.98018845604093,
+    "sc_p10": 2.556122448979598,
+    "below": {
+      "40": {
+        "count": 33,
+        "outgoing_pct": 0.001416749592231113
+      },
+      "50": {
+        "count": 36,
+        "outgoing_pct": 0.001654055528538339
+      },
+      "60": {
+        "count": 38,
+        "outgoing_pct": 0.0017880320270784328
+      },
+      "70": {
+        "count": 66,
+        "outgoing_pct": 44.16249274788301
+      }
+    },
+    "max_population": 6562191.0,
+    "population_p90": 250520.10000000018,
+    "min_regular_population": 20275.0,
+    "audit": {
+      "violations": [],
+      "disconnected": [],
+      "exempt_regions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        215,
+        216,
+        218,
+        219,
+        220,
+        221,
+        224,
+        225,
+        226,
+        235,
+        238,
+        239,
+        244,
+        245,
+        246,
+        247,
+        248,
+        250,
+        253,
+        257,
+        264,
+        266,
+        267,
+        269,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        322,
+        323,
+        326,
+        327,
+        328,
+        329,
+        330,
+        333,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        370,
+        371,
+        388,
+        389,
+        390
+      ]
+    }
+  },
+  "manifest": {
+    "year": 2025,
+    "graph": "commute",
+    "od": "public/data/2025/od/OD_COM_1KM_DAILY.csv",
+    "od_sha256": "a48ad3b275ac79984fa747d6cbbc39d1787c93cdba660b0029f1f1fb29761ddc",
+    "od_rows": 1945559,
+    "total_flow": 3951439.288000001,
+    "self_flow": 213704.936,
+    "full_cells": 107661,
+    "atoms": 53629,
+    "geographic_components": 287,
+    "exempt_components": 285,
+    "exempt_population": 53772.0,
+    "exempt_outgoing_pct": 0.034427910967311307,
+    "missing_od_rows": 0,
+    "unmapped_unit_outgoing": 0.0,
+    "population_scope": "all full-grid population assigned through connected rook parcels",
+    "geography": "rook-only; zero-flow parcels contracted; isolated components frozen and reported",
+    "baseline_rule": "Γ(a,b)=max(γa,γb)",
+    "baseline_cap": "origin"
+  },
+  "container_capture": {
+    "수도권": 69.73181969185114,
+    "충청권": 73.63614034790197,
+    "호남권": 73.98692120847215,
+    "대경권": 75.04658476822337,
+    "동남권": 77.3293896755453,
+    "강원특자": 75.64851973275442,
+    "전북특자": 79.33102269037944,
+    "제주특자": 72.69375339918054
+  },
+  "error_max_pp": 9.331022690379442,
+  "regions": [
+    {
+      "sc": 65.46732837055417,
+      "outgoing": 2.418,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 1.209,
+      "exempt": true
+    },
+    {
+      "sc": 62.68576544315129,
+      "outgoing": 5.585,
+      "exempt": true
+    },
+    {
+      "sc": 86.18693134822168,
+      "outgoing": 1.209,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 98.03458376641784,
+      "outgoing": 10.583,
+      "exempt": true
+    },
+    {
+      "sc": 99.24039757083439,
+      "outgoing": 153.63300000000004,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 85.70029382957885,
+      "outgoing": 2.042,
+      "exempt": true
+    },
+    {
+      "sc": 69.07095073569761,
+      "outgoing": 16776.387,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 83.35820420344959,
+      "outgoing": 8574.957999999991,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 94.44208739923631,
+      "outgoing": 32.998,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.29200000000000004,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 100.0,
+      "outgoing": 0.167,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 93.19436619718311,
+      "outgoing": 17.75,
+      "exempt": true
+    },
+    {
+      "sc": 76.44569816643158,
+      "outgoing": 0.7090000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 42.289935364727604,
+      "outgoing": 2.166,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 62.46246246246246,
+      "outgoing": 0.33299999999999996,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 95.22678466599953,
+      "outgoing": 1330.403,
+      "exempt": false
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.167,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 79.99040307101727,
+      "outgoing": 2.084,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 89.8456197078402,
+      "outgoing": 3137.187999999998,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 13.36,
+      "outgoing": 1.25,
+      "exempt": true
+    },
+    {
+      "sc": 90.30790563862664,
+      "outgoing": 26280.58399999999,
+      "exempt": false
+    },
+    {
+      "sc": 95.99132368688396,
+      "outgoing": 36.421,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.167,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 81.5156795644698,
+      "outgoing": 3428.284000000001,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 91.37916261619455,
+      "outgoing": 3512.9649999999974,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 1.0010000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 12.518740629685157,
+      "outgoing": 1.334,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 10.454708199069104,
+      "outgoing": 2.7929999999999997,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 87.52466424797912,
+      "outgoing": 15.710999999999999,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 46.125461254612546,
+      "outgoing": 1.084,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 54.97900419916015,
+      "outgoing": 3.3340000000000005,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 25.0,
+      "outgoing": 0.668,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.625,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.6260000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 93.72704052171349,
+      "outgoing": 6511.472000000011,
+      "exempt": false
+    },
+    {
+      "sc": 94.61378687998328,
+      "outgoing": 15482.008999999996,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 37.49250149970006,
+      "outgoing": 1.667,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 31.01736972704714,
+      "outgoing": 3.6270000000000007,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 8.706986444212722,
+      "outgoing": 1.9180000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 53.21428571428572,
+      "outgoing": 1.96,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.334,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 91.80195623676512,
+      "outgoing": 19.834000000000003,
+      "exempt": true
+    },
+    {
+      "sc": 92.10858585858587,
+      "outgoing": 1.5839999999999999,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 74.72382160738695,
+      "outgoing": 328543.2619999995,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 25.79395817195972,
+      "outgoing": 1.2910000000000001,
+      "exempt": true
+    },
+    {
+      "sc": 87.0052976004986,
+      "outgoing": 3.2090000000000005,
+      "exempt": true
+    },
+    {
+      "sc": 96.29285838603008,
+      "outgoing": 51.711,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 74.40342917025541,
+      "outgoing": 1837.879,
+      "exempt": false
+    },
+    {
+      "sc": 71.05555978517279,
+      "outgoing": 21449.27300000001,
+      "exempt": false
+    },
+    {
+      "sc": 80.54034366585584,
+      "outgoing": 76.87700000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 8.055172413793105,
+      "outgoing": 3.625,
+      "exempt": true
+    },
+    {
+      "sc": 95.42947456697743,
+      "outgoing": 31.003,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 96.61016118519392,
+      "outgoing": 204.05100000000002,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 92.92096927870624,
+      "outgoing": 38.833,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 42.190305206463194,
+      "outgoing": 6.127,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.125,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.5,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 100.0,
+      "outgoing": 0.25,
+      "exempt": true
+    },
+    {
+      "sc": 94.10837588509095,
+      "outgoing": 1706.7450000000001,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 94.15072360451377,
+      "outgoing": 2710.112999999999,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 91.57926902977054,
+      "outgoing": 3854.9860000000003,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 4.082,
+      "exempt": true
+    },
+    {
+      "sc": 84.54291709541725,
+      "outgoing": 1264.3329999999987,
+      "exempt": false
+    },
+    {
+      "sc": 73.84036321214637,
+      "outgoing": 1116.9230000000002,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.125,
+      "exempt": true
+    },
+    {
+      "sc": 70.23881199898042,
+      "outgoing": 21998.769000000022,
+      "exempt": false
+    },
+    {
+      "sc": 73.09031706697246,
+      "outgoing": 10631.633999999993,
+      "exempt": false
+    },
+    {
+      "sc": 85.25164988260687,
+      "outgoing": 2702.4649999999974,
+      "exempt": false
+    },
+    {
+      "sc": 86.35440360841446,
+      "outgoing": 1289.8739999999998,
+      "exempt": false
+    },
+    {
+      "sc": 67.0233385613885,
+      "outgoing": 2525.4769999999985,
+      "exempt": false
+    },
+    {
+      "sc": 89.83511418036389,
+      "outgoing": 5022.142000000011,
+      "exempt": false
+    },
+    {
+      "sc": 88.99595711075082,
+      "outgoing": 2611.004,
+      "exempt": false
+    },
+    {
+      "sc": 87.66102801875451,
+      "outgoing": 7404.612000000005,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 88.85596366507195,
+      "outgoing": 2681.4969999999994,
+      "exempt": false
+    },
+    {
+      "sc": 71.52490239933493,
+      "outgoing": 5428.753999999998,
+      "exempt": false
+    },
+    {
+      "sc": 30.747922437673132,
+      "outgoing": 1.083,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 91.43937826454149,
+      "outgoing": 24049.328000000012,
+      "exempt": false
+    },
+    {
+      "sc": 78.25858012744364,
+      "outgoing": 22052.120000000057,
+      "exempt": false
+    },
+    {
+      "sc": 86.3079392125649,
+      "outgoing": 3049.446,
+      "exempt": false
+    },
+    {
+      "sc": 66.59004279873048,
+      "outgoing": 25579.497000000003,
+      "exempt": false
+    },
+    {
+      "sc": 34.8856664807585,
+      "outgoing": 3.5860000000000003,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 30.75030750307503,
+      "outgoing": 1.6260000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 87.72632133392261,
+      "outgoing": 5858.870999999997,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 75.50329912488331,
+      "outgoing": 6387.603000000007,
+      "exempt": false
+    },
+    {
+      "sc": 66.50081268754752,
+      "outgoing": 67762.82000000004,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 88.6118294365729,
+      "outgoing": 14380.668000000003,
+      "exempt": false
+    },
+    {
+      "sc": 60.74536538352536,
+      "outgoing": 41486.92800000002,
+      "exempt": false
+    },
+    {
+      "sc": 72.76447774040493,
+      "outgoing": 59690.391999999985,
+      "exempt": false
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.7090000000000001,
+      "exempt": true
+    },
+    {
+      "sc": 65.70987708900134,
+      "outgoing": 40715.64,
+      "exempt": false
+    },
+    {
+      "sc": 64.0025144580459,
+      "outgoing": 28324.19500000003,
+      "exempt": false
+    },
+    {
+      "sc": 89.53296229369217,
+      "outgoing": 14462.964999999997,
+      "exempt": false
+    },
+    {
+      "sc": 89.3690588230056,
+      "outgoing": 19088.705000000013,
+      "exempt": false
+    },
+    {
+      "sc": 75.12797588064086,
+      "outgoing": 59142.19899999995,
+      "exempt": false
+    },
+    {
+      "sc": 78.3704538049617,
+      "outgoing": 71168.63600000012,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 68.87131613759145,
+      "outgoing": 215148.88099999994,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 62.24844193378299,
+      "outgoing": 172834.5989999998,
+      "exempt": false
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 3.3760000000000003,
+      "exempt": true
+    },
+    {
+      "sc": 67.31639751054905,
+      "outgoing": 198152.71899999995,
+      "exempt": false
+    },
+    {
+      "sc": 76.852018222425,
+      "outgoing": 42263.974000000104,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 4.260204081632653,
+      "outgoing": 3.92,
+      "exempt": true
+    },
+    {
+      "sc": 66.06653510907802,
+      "outgoing": 345849.55700000015,
+      "exempt": false
+    },
+    {
+      "sc": 71.8145043816095,
+      "outgoing": 497085.6389999997,
+      "exempt": false
+    },
+    {
+      "sc": 63.84721295717486,
+      "outgoing": 107036.06600000033,
+      "exempt": false
+    },
+    {
+      "sc": 80.56776763376354,
+      "outgoing": 4015.8329999999983,
+      "exempt": false
+    },
+    {
+      "sc": 70.18852229502211,
+      "outgoing": 69015.97500000028,
+      "exempt": false
+    },
+    {
+      "sc": 89.78826464305209,
+      "outgoing": 1319.6190000000004,
+      "exempt": false
+    },
+    {
+      "sc": 88.30591024275698,
+      "outgoing": 2276.183999999999,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.9180000000000001,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 93.22065229593738,
+      "outgoing": 20015.731000000018,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 92.89491716007518,
+      "outgoing": 56.917,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 7.238386932108219,
+      "outgoing": 9.795,
+      "exempt": true
+    },
+    {
+      "sc": 29.976019184652277,
+      "outgoing": 0.41700000000000004,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 87.44447804350042,
+      "outgoing": 3442.5569999999993,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 96.00885210178322,
+      "outgoing": 22980.757,
+      "exempt": false
+    },
+    {
+      "sc": 87.55416170633325,
+      "outgoing": 10324.407000000008,
+      "exempt": false
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.25,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 87.12744936604643,
+      "outgoing": 24.292,
+      "exempt": true
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 0.167,
+      "exempt": true
+    },
+    {
+      "sc": 77.67890147219477,
+      "outgoing": 13702.193000000005,
+      "exempt": false
+    },
+    {
+      "sc": 90.39915996015344,
+      "outgoing": 34318.37200000013,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 87.8409128791633,
+      "outgoing": 83331.77400000005,
+      "exempt": false
+    },
+    {
+      "sc": 84.18300362374323,
+      "outgoing": 3276.721999999997,
+      "exempt": false
+    },
+    {
+      "sc": 95.36028622540287,
+      "outgoing": 6079.1250000000055,
+      "exempt": false
+    },
+    {
+      "sc": 86.89593486407901,
+      "outgoing": 6741.595000000006,
+      "exempt": false
+    },
+    {
+      "sc": 66.24891311204252,
+      "outgoing": 31928.31400000001,
+      "exempt": false
+    },
+    {
+      "sc": 92.39589115275317,
+      "outgoing": 1327.7689999999998,
+      "exempt": false
+    },
+    {
+      "sc": 73.92805069398038,
+      "outgoing": 6414.015999999997,
+      "exempt": false
+    },
+    {
+      "sc": 87.66000377089172,
+      "outgoing": 1013.0230000000003,
+      "exempt": false
+    },
+    {
+      "sc": 87.42770477678332,
+      "outgoing": 10479.080999999995,
+      "exempt": false
+    },
+    {
+      "sc": 64.61045384008874,
+      "outgoing": 80448.88700000013,
+      "exempt": false
+    },
+    {
+      "sc": 86.02277440057571,
+      "outgoing": 39151.23900000003,
+      "exempt": false
+    },
+    {
+      "sc": 88.35408673982383,
+      "outgoing": 3097.8849999999998,
+      "exempt": false
+    },
+    {
+      "sc": 93.98597813266453,
+      "outgoing": 9514.281999999994,
+      "exempt": false
+    },
+    {
+      "sc": 91.56442712089653,
+      "outgoing": 1974.4479999999996,
+      "exempt": false
+    },
+    {
+      "sc": 93.26482887125022,
+      "outgoing": 17307.875000000062,
+      "exempt": false
+    },
+    {
+      "sc": 61.9912298139452,
+      "outgoing": 14080.202999999994,
+      "exempt": false
+    },
+    {
+      "sc": 93.7217536874051,
+      "outgoing": 8316.351000000002,
+      "exempt": false
+    },
+    {
+      "sc": 89.38625637794678,
+      "outgoing": 18183.358000000026,
+      "exempt": false
+    },
+    {
+      "sc": 71.45367405275145,
+      "outgoing": 16752.943999999996,
+      "exempt": false
+    },
+    {
+      "sc": 83.98798853843479,
+      "outgoing": 1854.894999999999,
+      "exempt": false
+    },
+    {
+      "sc": 85.09141301733575,
+      "outgoing": 1571.6579999999983,
+      "exempt": false
+    },
+    {
+      "sc": 62.92322014737539,
+      "outgoing": 16378.827999999989,
+      "exempt": false
+    },
+    {
+      "sc": 86.73073715968317,
+      "outgoing": 3963.5510000000004,
+      "exempt": false
+    },
+    {
+      "sc": 70.19450215856145,
+      "outgoing": 2288.097999999999,
+      "exempt": false
+    },
+    {
+      "sc": 95.4054481341839,
+      "outgoing": 2163.235999999998,
+      "exempt": false
+    },
+    {
+      "sc": 82.87592335624193,
+      "outgoing": 20039.93600000001,
+      "exempt": false
+    },
+    {
+      "sc": 81.38866759014776,
+      "outgoing": 1590.3589999999986,
+      "exempt": false
+    },
+    {
+      "sc": 94.32589079654839,
+      "outgoing": 1388.729,
+      "exempt": false
+    },
+    {
+      "sc": 90.96635565716173,
+      "outgoing": 8370.055000000004,
+      "exempt": false
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 70.88758289580652,
+      "outgoing": 53743.52100000002,
+      "exempt": false
+    },
+    {
+      "sc": 0.0,
+      "outgoing": 2.7089999999999996,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 68.39425956142524,
+      "outgoing": 46543.06400000001,
+      "exempt": false
+    },
+    {
+      "sc": 70.49133391055376,
+      "outgoing": 129238.97300000003,
+      "exempt": false
+    },
+    {
+      "sc": 62.934216704384625,
+      "outgoing": 21421.273999999987,
+      "exempt": false
+    },
+    {
+      "sc": 60.4556559878195,
+      "outgoing": 56739.734999999986,
+      "exempt": false
+    },
+    {
+      "sc": 88.42075573437187,
+      "outgoing": 73287.81400000003,
+      "exempt": false
+    },
+    {
+      "sc": 77.40176592366775,
+      "outgoing": 14790.107,
+      "exempt": false
+    },
+    {
+      "sc": 82.14142318584102,
+      "outgoing": 17449.218000000008,
+      "exempt": false
+    },
+    {
+      "sc": 82.13607201435903,
+      "outgoing": 6855.855000000007,
+      "exempt": false
+    },
+    {
+      "sc": 92.95402524783461,
+      "outgoing": 38064.41400000007,
+      "exempt": false
+    },
+    {
+      "sc": 64.32770063454443,
+      "outgoing": 102552.38000000006,
+      "exempt": false
+    },
+    {
+      "sc": 97.4580234249764,
+      "outgoing": 5127.859999999998,
+      "exempt": false
+    },
+    {
+      "sc": 95.46617314060983,
+      "outgoing": 3718.0069999999987,
+      "exempt": false
+    },
+    {
+      "sc": 83.70219408734178,
+      "outgoing": 3784.6259999999997,
+      "exempt": false
+    },
+    {
+      "sc": 78.01537130514784,
+      "outgoing": 5335.3960000000025,
+      "exempt": false
+    },
+    {
+      "sc": 84.8597100631915,
+      "outgoing": 1326.2889999999995,
+      "exempt": false
+    },
+    {
+      "sc": 85.59491616280901,
+      "outgoing": 13698.157,
+      "exempt": false
+    },
+    {
+      "sc": 99.37442572281356,
+      "outgoing": 499.541,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": null,
+      "outgoing": 0.0,
+      "exempt": true
+    },
+    {
+      "sc": 77.98018845604093,
+      "outgoing": 1022.8379999999999,
+      "exempt": false
+    },
+    {
+      "sc": 74.03146274637781,
+      "outgoing": 50864.40900000003,
+      "exempt": false
+    },
+    {
+      "sc": 61.997954232218845,
+      "outgoing": 6416.173000000011,
+      "exempt": false
+    },
+    {
+      "sc": 61.14697086212533,
+      "outgoing": 38102.60699999998,
+      "exempt": false
+    },
+    {
+      "sc": 69.434868658893,
+      "outgoing": 2448.0150000000003,
+      "exempt": false
+    },
+    {
+      "sc": 64.42465913153951,
+      "outgoing": 4133.705999999999,
+      "exempt": false
+    },
+    {
+      "sc": 64.48046821495261,
+      "outgoing": 61589.148,
+      "exempt": false
+    }
+  ]
+}

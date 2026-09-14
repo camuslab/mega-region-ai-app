@@ -1,0 +1,21 @@
+[
+  { "origin": "SEO", "dest": "SEG", "count": 900 },
+  { "origin": "SEG", "dest": "SEO", "count": 880 },
+  { "origin": "SEO", "dest": "SUW", "count": 820 },
+  { "origin": "SUW", "dest": "SEO", "count": 780 },
+  { "origin": "SEO", "dest": "ANY", "count": 560 },
+  { "origin": "ANY", "dest": "SEO", "count": 540 },
+  { "origin": "SEO", "dest": "GWM", "count": 520 },
+  { "origin": "GWM", "dest": "SEO", "count": 500 },
+  { "origin": "SUW", "dest": "YIG", "count": 620 },
+  { "origin": "YIG", "dest": "SUW", "count": 600 },
+  { "origin": "INC", "dest": "BUC", "count": 520 },
+  { "origin": "BUC", "dest": "INC", "count": 510 },
+  { "origin": "GYG", "dest": "PJU", "count": 300 },
+  { "origin": "PJU", "dest": "GYG", "count": 290 },
+  { "origin": "GMP", "dest": "INC", "count": 380 },
+  { "origin": "INC", "dest": "GMP", "count": 370 },
+  { "origin": "ANS", "dest": "SIH", "count": 260 },
+  { "origin": "SIH", "dest": "ANS", "count": 250 }
+]
+

@@ -1,0 +1,19 @@
+[
+  { "origin": "SEO", "dest": "INC", "count": 450 },
+  { "origin": "INC", "dest": "SEO", "count": 430 },
+  { "origin": "SEO", "dest": "GYG", "count": 480 },
+  { "origin": "GYG", "dest": "SEO", "count": 470 },
+  { "origin": "SEO", "dest": "YIG", "count": 420 },
+  { "origin": "YIG", "dest": "SEO", "count": 410 },
+  { "origin": "SEO", "dest": "BUC", "count": 400 },
+  { "origin": "BUC", "dest": "SEO", "count": 390 },
+  { "origin": "SEO", "dest": "ANS", "count": 360 },
+  { "origin": "ANS", "dest": "SEO", "count": 350 },
+  { "origin": "SUW", "dest": "YIG", "count": 260 },
+  { "origin": "YIG", "dest": "SUW", "count": 250 },
+  { "origin": "INC", "dest": "GMP", "count": 260 },
+  { "origin": "GMP", "dest": "INC", "count": 250 },
+  { "origin": "PJU", "dest": "GYG", "count": 140 },
+  { "origin": "GYG", "dest": "PJU", "count": 130 }
+]
+
