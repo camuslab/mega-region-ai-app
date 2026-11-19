@@ -1,0 +1,59 @@
+{
+ "capture_t25_noref": {
+  "K": 1737,
+  "singletons": 1221,
+  "capture": 82.4,
+  "maxshare": 2.56,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 37,
+  "capital_top": 13.2,
+  "bnrt_K": 1737,
+  "bnrt_capture": 65.14,
+  "ari_vs_bnrt": 0.3501,
+  "bnrt_tau": {
+   "K": 287,
+   "capture": 89.93,
+   "viol": 23.81,
+   "viol_flow": 8.63
+  }
+ },
+ "capture_t50_noref": {
+  "K": 367,
+  "singletons": 194,
+  "capture": 91.24,
+  "maxshare": 5.11,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 12,
+  "capital_top": 26.3,
+  "bnrt_K": 367,
+  "bnrt_capture": 88.25,
+  "ari_vs_bnrt": 0.4997,
+  "bnrt_tau": {
+   "K": 53,
+   "capture": 98.83,
+   "viol": 30.69,
+   "viol_flow": 8.05
+  }
+ },
+ "capture_t120_noref": {
+  "K": 82,
+  "singletons": 6,
+  "capture": 97.95,
+  "maxshare": 19.23,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 1,
+  "capital_top": 94.8,
+  "bnrt_K": 82,
+  "bnrt_capture": 97.97,
+  "ari_vs_bnrt": 0.5513,
+  "bnrt_tau": {
+   "K": 12,
+   "capture": 99.74,
+   "viol": 26.46,
+   "viol_flow": 9.08
+  }
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "capture_t25": {
+  "K": 1609,
+  "singletons": 1117,
+  "capture": 79.59,
+  "maxshare": 1.95,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 35,
+  "capital_top": 10.1,
+  "bnrt_K": 1609,
+  "bnrt_capture": 65.08,
+  "ari_vs_bnrt": 0.3703,
+  "bnrt_tau": {
+   "K": 276,
+   "capture": 91.63,
+   "viol": 23.6,
+   "viol_flow": 7.46
+  }
+ },
+ "capture_t50": {
+  "K": 303,
+  "singletons": 146,
+  "capture": 92.94,
+  "maxshare": 6.89,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 10,
+  "capital_top": 35.7,
+  "bnrt_K": 303,
+  "bnrt_capture": 90.68,
+  "ari_vs_bnrt": 0.5152,
+  "bnrt_tau": {
+   "K": 51,
+   "capture": 98.89,
+   "viol": 30.21,
+   "viol_flow": 8.01
+  }
+ },
+ "capture_t120": {
+  "K": 68,
+  "singletons": 1,
+  "capture": 98.29,
+  "maxshare": 18.03,
+  "viol": 0.0,
+  "viol_flow": 0.0,
+  "capital_n90": 1,
+  "capital_top": 92.0,
+  "bnrt_K": 68,
+  "bnrt_capture": 98.05,
+  "ari_vs_bnrt": 0.6258,
+  "bnrt_tau": {
+   "K": 11,
+   "capture": 99.71,
+   "viol": 26.13,
+   "viol_flow": 9.07
+  }
+ }
+}
